@@ -1,4 +1,4 @@
-const sheetURL = "https://raw.githubusercontent.com/ktechlab9/Recipes.github.io/refs/heads/main/recipes.csv"; 
+const sheetURL = "https://raw.githubusercontent.com/ktechlab9/Food.github.io/refs/heads/main/recipes.csv"; 
 
 async function loadRecipes() {
     const response = await fetch(sheetURL);
