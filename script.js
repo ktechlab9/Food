@@ -1,4 +1,4 @@
-const sheetURL = "https://docs.google.com/spreadsheets/d/118ySPUzvp-57UHj0vG70hIEq1TAR3jlh1dJ29wslWKw/edit?usp=drivesdk "; 
+const sheetURL = "https://raw.githubusercontent.com/ktechlab9/Recipes.github.io/refs/heads/main/recipes.csv"; 
 
 async function loadRecipes() {
     const response = await fetch(sheetURL);
